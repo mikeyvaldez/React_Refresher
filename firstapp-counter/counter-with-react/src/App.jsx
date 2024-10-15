@@ -17,12 +17,14 @@ function App(){
   }
 
   return (
-    <div>
-      <h4>The current count is...</h4>
-      <h1>{count}</h1>
-      <button onClick={subtractFromCount}>-</button>
-      <button onClick={addToCount}>+</button>
-    </div>
+    <>
+      <div>
+        <h4>The current count is...</h4>
+        <h1>{count}</h1>
+        <button onClick={subtractFromCount}>-</button>
+        <button onClick={addToCount}>+</button>
+      </div>
+    </>
   )
 }
 
