@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-key */
 import './App.css'
 import groceryCartImg from './assets/grocery-cart.png'
 import { useState, useEffect } from 'react'
