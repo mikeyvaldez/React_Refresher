@@ -1,5 +1,5 @@
 main {
-  max-width: 500px;
+  max-width: 800px;
   margin: 0 auto
 }
 
@@ -8,7 +8,7 @@ main {
   margin: 10px 0;
 }
 
-.input-container {
+.input-container {  
   margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
@@ -21,6 +21,11 @@ input {
   width: 100%;
   margin-right: 10px;
   padding: 5px 0;
+  font-size: 25px;
+}
+
+.income-expense {
+  font-size: 25px;
 }
 
 button {

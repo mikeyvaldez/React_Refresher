@@ -108,8 +108,8 @@ function App() {
             value={input.statementType}
             name="statementType"
           >
-            <option value="income">Income</option>
-            <option value="expense">Expense</option>
+            <option className='income-expense' value="income">Income</option>
+            <option className='income-expense' value="expense">Expense</option>
           </select>
           <button onClick={handleAddNewStatement}>+</button>
         </div>
