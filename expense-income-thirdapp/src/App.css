@@ -24,13 +24,18 @@ input {
   font-size: 25px;
 }
 
-.income-expense {
-  font-size: 25px;
+.select-option {
+  font-size: 20px;
+}
+
+option {
+  font-size: 20px;
 }
 
 button {
   width: 100px;
   margin-left: 10px;
+  font-size: 30px;
 }
 
 .card {

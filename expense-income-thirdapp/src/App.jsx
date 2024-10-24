@@ -19,7 +19,9 @@ function App() {
     const newTotal = statements.reduce((sum, { type, amount }) => {
       if (type === "expense") {
         return sum - parseFloat(amount);
-      } else return sum + parseFloat(amount);
+      } else {
+        return sum + parseFloat(amount);
+      }
     }, 0);
     setTotal(newTotal);
   }, [statements]);
@@ -104,12 +106,13 @@ function App() {
             }
           />
           <select
+            className="select-option"
             onChange={handleUpdateInput}
             value={input.statementType}
             name="statementType"
           >
-            <option className='income-expense' value="income">Income</option>
-            <option className='income-expense' value="expense">Expense</option>
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
           </select>
           <button onClick={handleAddNewStatement}>+</button>
         </div>
