@@ -54,7 +54,7 @@ main {
 
 .main_img {
   border-radius: 20px;
-  width: 600px;
+  max-width: 600px;    
 }
 
 .header-input-container {
