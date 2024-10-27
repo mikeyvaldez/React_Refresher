@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export default function Card({recipe}) {
     const {image, name, tag, numberOfMinutes} = recipe
   return (
