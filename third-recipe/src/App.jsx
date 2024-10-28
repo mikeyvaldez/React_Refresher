@@ -1,10 +1,14 @@
 import "./App.css";
 import { Outlet } from "react-router-dom";
+import NavBar from "./components/Navbar";
+import { useState } from "react";
 
 function App() {
+  const [count, setCount] = useState(1);
   return (
     <div className="App">      
-      <main className="main_container">
+      <NavBar />
+      <main className="main_container">        
         <Outlet />
       </main>
     </div>

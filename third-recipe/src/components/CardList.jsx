@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-key */
 import Card from "./Card";
 
-const recipes = [
+export const recipes = [
   {
     id: 1,
     name: "Chicken Sandwich",
