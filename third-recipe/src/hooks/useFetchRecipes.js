@@ -22,8 +22,7 @@ const useFetchRecipes = () => {
 
   
 
-  const fetchRecipes = async (searchTerm) => {
-    console.log(searchTerm, "in the recipes")
+  const fetchRecipes = async (searchTerm) => {    
     setLoading(true);
     setRecipes(null);
     setError(null);
