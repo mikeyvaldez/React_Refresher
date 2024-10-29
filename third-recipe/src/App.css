@@ -61,7 +61,7 @@
   border-radius: 30px;
   border: none;
   font-size: 20px;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.072);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
 }
 
 .header-input-container button {
