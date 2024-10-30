@@ -1,16 +1,13 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 
-
 function Header({ handleSearch }) {
   const [searchTerm, setSearchTerm] = useState("");
-  
 
   const handleClick = () => {
     handleSearch(searchTerm);
     setSearchTerm("");
-  }
-  
+  };
 
   return (
     <header className="main_header">

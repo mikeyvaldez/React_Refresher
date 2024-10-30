@@ -220,7 +220,7 @@
   border-radius: 3px;
 }
 
-.recipe-info-content-container {
+.recipe-info-content-container {  
   display: flex;
   padding: 15px 0;
   border-bottom: 1px dashed rgba(128, 128, 128, 0.355);
@@ -251,7 +251,7 @@
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
 }
 
-.recipe-step {
+.recipe-step {  
   font-size: 30px;
   font-weight: bold;
   margin-right: 20px;
