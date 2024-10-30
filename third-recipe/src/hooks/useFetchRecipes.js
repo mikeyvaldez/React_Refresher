@@ -1,3 +1,9 @@
+// This document demonstrates the use of the useState hook.
+// This document performs essentially the same job as 
+// the other useFetchRecipe.js file,
+// it is recommended to compare the two files to learn the different approach
+
+
 import axios from "axios";
 import { useState } from "react";
 
