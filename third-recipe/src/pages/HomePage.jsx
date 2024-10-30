@@ -1,3 +1,4 @@
+import { useSearchParams } from "react-router-dom";
 import CardList from "../components/CardList";
 import Header from "../components/Header";
 import Loading from "../components/Loading";
@@ -7,9 +8,10 @@ import { useEffect } from "react";
 export default function HomePage() {  
 
   const [fetchRecipes, {data, loading, error}] = useFetchRecipes();
+  const [searchParams] = useSearchParams()
 
   useEffect(() => {
-    fetchRecipes();
+    fetchRecipes(searchParams.get("search"));
   }, []);
 
   const handleSearch = (searchTerm) => {    
