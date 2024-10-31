@@ -4,8 +4,7 @@
   box-sizing: border-box;
 }
 
-.App {
-  /* background-color: rgb(240,248,246); */
+.App {  
   margin: 0 auto;
   min-height: 100vh;
 }
