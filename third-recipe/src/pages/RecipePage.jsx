@@ -19,7 +19,7 @@ export default function RecipePage() {
   if (error) return <h1>{error}</h1>;
   if (data?.errors) return <Error explanation="Recipe not found" />;
 
-  console.log(data);
+  
   return (
     <div>
       {data && (
