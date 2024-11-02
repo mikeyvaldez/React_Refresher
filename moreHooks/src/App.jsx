@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import './App.css'
-import MagicNumber from './components/MagicNumber'
+import SignUpToNewsLetter from './components/SignUpToNewsLetter'
+// import MagicNumber from './components/MagicNumber'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <MagicNumber />      
+      {/* <MagicNumber />       */}
+      <SignUpToNewsLetter />
     </>
   )
 }
