@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import SignUpToNewsLetter from './components/SignUpToNewsLetter'
+import MemoHook from './components/MemoHook'
+// import SignUpToNewsLetter from './components/SignUpToNewsLetter'
 // import MagicNumber from './components/MagicNumber'
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
       {/* <MagicNumber />       */}
-      <SignUpToNewsLetter />
+      {/* <SignUpToNewsLetter /> */}
+      <MemoHook />
     </>
   )
 }
