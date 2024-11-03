@@ -1,7 +1,13 @@
-import { useState } from "react";
+import { memo } from "react";
 
-export default function Child(){
-    return (
-        <div></div>
-    )
+function Child({ prop }) {
+  console.log("child is re-rendering");
+
+  return (
+    <div>
+      <h1>{prop}</h1>
+    </div>
+  );
 }
+
+export default memo(Child);

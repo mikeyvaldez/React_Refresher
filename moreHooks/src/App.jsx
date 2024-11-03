@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import MemoHook from './components/MemoHook'
+// import MemoHook from './components/MemoHook'
+import Parent from './components/Memo/Parent'
 // import SignUpToNewsLetter from './components/SignUpToNewsLetter'
 // import MagicNumber from './components/MagicNumber'
 
@@ -11,7 +12,8 @@ function App() {
     <>
       {/* <MagicNumber />       */}
       {/* <SignUpToNewsLetter /> */}
-      <MemoHook />
+      {/* <MemoHook /> */}
+      <Parent />
     </>
   )
 }
