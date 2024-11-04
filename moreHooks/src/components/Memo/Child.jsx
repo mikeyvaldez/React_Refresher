@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { memo } from "react";
 
 function Child({ prop }) {
@@ -5,7 +6,7 @@ function Child({ prop }) {
 
   return (
     <div>
-      <h1>{prop}</h1>
+      <h1>{ prop }</h1>
     </div>
   );
 }
