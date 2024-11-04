@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Gift } from "../App";
+import { v4 as uuid } from "uuid";
 
 interface ModalProps {
   onClose: () => void;
@@ -13,7 +14,7 @@ export default function Modal({onClose: handleClose, onSave: handleSave}: ModalP
 
   const saveGift = () => {
     if(name && value && image){
-      handleSave({ id: "", name, value: parseFloat(value), image })
+      handleSave({ id: uuid(), name, value: parseFloat(value), image })
     }
     setImage("");
     setName("");
