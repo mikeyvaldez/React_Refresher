@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 
-export default function Modal() {
+export default function Modal({ onClose }) {
   const [name, setName] = useState("");
   const [value, setValue] = useState("");
   const [image, setImage] = useState("");
@@ -25,7 +26,7 @@ export default function Modal() {
           onChange={(e) => setImage(e.target.value)}
         />
         <button>Save</button>
-        <button>Close</button>
+        <button onClick={onClose}>Close</button>
       </div>
     </div>
   );

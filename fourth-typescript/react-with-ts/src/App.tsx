@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <h1>My Birthday Gifts</h1>
-      { showModal && <Modal /> }
+      { showModal && <Modal onClose={handleClose} /> }
       <div className="cards">
         <button onClick={handleOpen} >Add a Gift</button>
       </div>
