@@ -1,6 +1,7 @@
 
 // we use capital letters for components to distinguish the difference 
 // between an html tag and a component
+// components give reusability in react which reduces the amount of code needed.
 
 import Hello from "./components/Hello";
 
