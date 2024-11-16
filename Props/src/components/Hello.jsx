@@ -1,8 +1,16 @@
+/* eslint-disable react/prop-types */
 
 
 
-function Hello() {
-    return <h1>Hello from component</h1>;
+function Hello(props) {
+
+    console.log(props)
+    return (
+        <div>
+            <h1>{props.message} {props.name}</h1>
+        </div>
+    )
 }
+
 
 export default Hello;
