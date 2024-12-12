@@ -1,9 +1,9 @@
-/* eslint-disable react/prop-types */
+import PropTypes from "prop-types";
 
 // props are considered immutable in React
 // you cannot change or mutate the props in anyway
 
-function Hello(props) {
+export default function Hello(props) {
     
     // props.name = "Mikayla";   // this would cause an error because of immutability of props 
 
@@ -14,5 +14,9 @@ function Hello(props) {
     )
 }
 
+Hello.propTypes = {
+    props: PropTypes.string,
+    message: PropTypes.string,
+    name: PropTypes.string
+}
 
-export default Hello;
