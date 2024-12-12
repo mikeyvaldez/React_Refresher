@@ -1,10 +1,10 @@
-/* eslint-disable react/prop-types */
 
+import PropTypes from "prop-types";
 
 
 function Hello(props) {
 
-    console.log(props)
+    
     return (
         <div>
             <h1>{props.message} {props.name}</h1>
@@ -12,5 +12,9 @@ function Hello(props) {
     )
 }
 
+Hello.propTypes = {
+    message: PropTypes.string,
+    name: PropTypes.string,
+}
 
 export default Hello;
