@@ -2,7 +2,12 @@
 
 
 export default function Fruits(){
-    const fruits = ["Apple", "Blueberry", "Orange", "Mango", "Pineapple", "Banana"]
+    const fruits = [
+        {
+            name: "Apple",
+            price: 10,
+        }
+    ]
 
     return (
         <div>
